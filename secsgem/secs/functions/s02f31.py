@@ -6,12 +6,12 @@ class SecsS02F31(SecsStreamFunction):
     _stream = 2
     _function = 31
 
-    _dataFormat = TIME
+    _data_format = TIME
 
-    _toHost = False
-    _toEquipment = True
+    _to_host = False
+    _to_equipment = True
 
-    _hasReply = True
-    _isReplyRequired = True
+    _has_reply = True
+    _is_reply_required = True
 
-    _isMultiBlock = True
+    _is_multi_block = False
