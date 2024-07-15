@@ -228,8 +228,7 @@ class HsmsProtocol(secsgem.common.Protocol[HsmsMessage, HsmsBlock]):  # pylint: 
             self.send_linktest_rsp(message.header.system)
 
     def __handle_hsms_requests(self, message: HsmsMessage):
-        self._communication_logger.info("< %s\n  %s", message, message.header.s_type.text,
-                                        extra=self._get_log_extra())
+        self._communication_logger.debug("< %s\n  %s", message, message.header.s_type.text, extra=self._get_log_extra())
 
         if message.header.s_type == HsmsSType.SELECT_REQ:
             self.__handle_hsms_requests_select_req(message)
