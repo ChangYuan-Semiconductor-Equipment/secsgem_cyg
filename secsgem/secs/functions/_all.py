@@ -47,6 +47,8 @@ from .s02f25 import SecsS02F25
 from .s02f26 import SecsS02F26
 from .s02f29 import SecsS02F29
 from .s02f30 import SecsS02F30
+from .s02f31 import SecsS02F31
+from .s02f32 import SecsS02F32
 from .s02f33 import SecsS02F33
 from .s02f34 import SecsS02F34
 from .s02f35 import SecsS02F35

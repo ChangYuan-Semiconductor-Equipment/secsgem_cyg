@@ -1,4 +1,4 @@
-from secsgem.secs import SecsStreamFunction
+from secsgem.secs.functions.base import SecsStreamFunction
 from secsgem.secs.data_items import TIME
 
 
