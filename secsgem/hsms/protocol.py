@@ -403,7 +403,7 @@ class HsmsProtocol(secsgem.common.Protocol[HsmsMessage, HsmsBlock]):  # pylint: 
         response_queue = self._get_queue_for_system(system_id)
 
         message = HsmsMessage(HsmsLinktestReqHeader(system_id), b"")
-        self._communication_logger.info(
+        self._communication_logger.debug(
             "> %s\n  %s", message, message.header.s_type.text,
             extra=self._get_log_extra())
 
@@ -427,7 +427,7 @@ class HsmsProtocol(secsgem.common.Protocol[HsmsMessage, HsmsBlock]):  # pylint: 
         :type system_id: integer
         """
         message = HsmsMessage(HsmsLinktestRspHeader(system_id), b"")
-        self._communication_logger.info(
+        self._communication_logger.debug(
             "> %s\n  %s", message, message.header.s_type.text,
             extra=self._get_log_extra())
         return self.send_message(message)
