@@ -183,6 +183,8 @@ secs_streams_functions = [
     SecsS02F26,
     SecsS02F29,
     SecsS02F30,
+    SecsS02F31,
+    SecsS02F32,
     SecsS02F33,
     SecsS02F34,
     SecsS02F35,
