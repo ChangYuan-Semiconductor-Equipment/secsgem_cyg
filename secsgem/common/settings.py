@@ -35,7 +35,7 @@ class DeviceType(enum.Enum):
     # This device is equipment
     EQUIPMENT = 0
 
-    # This device is host
+    # This device is host.
     HOST = 1
 
 
@@ -73,7 +73,7 @@ class Settings(abc.ABC):
     def device_type(self) -> DeviceType:
         """Device type.
 
-        Default: DeviceType.HOST
+        Default: DeviceType.HOST.
         """
         return self._device_type
 
@@ -81,7 +81,7 @@ class Settings(abc.ABC):
     def streams_functions(self) -> StreamsFunctions:
         """Container with streams/functions.
 
-        Default: DeviceType.HOST
+        Default: DeviceType.HOST.
         """
         return self._streams_functions
 
