@@ -61,6 +61,22 @@ class GemHandler(secsgem.secs.SecsHandler):  # pylint: disable=too-many-instance
         return f"{self.__class__.__name__} {self.serialize_data()}"
 
     @property
+    def model_name(self):
+        return self._mdln
+
+    @model_name.setter
+    def model_name(self, model_name):
+        self._mdln = model_name
+
+    @property
+    def software_version(self):
+        return self._softrev
+
+    @software_version.setter
+    def software_version(self, software_version):
+        self._softrev = software_version
+
+    @property
     def communication_state(self) -> CommunicationStateMachine:
         """Get the communication state model."""
         return self._communication_state
