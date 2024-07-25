@@ -27,10 +27,12 @@ class Base:
     format_code = -1
     preferred_types: list[type] | None
 
-
     def __init__(self, value=None):
         """Initialize a secs variable."""
         self.value = value
+
+    def __call__(self, *args, **kwargs):
+        return self
 
     def set(self, value):
         """Set the internal value to the provided value.
