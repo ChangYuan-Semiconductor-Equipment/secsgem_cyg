@@ -71,6 +71,10 @@ class Protocol(abc.ABC, typing.Generic[MessageT, BlockT]):  # pylint: disable=to
         )
 
     @property
+    def communication_logger(self):
+        return self._communication_logger
+
+    @property
     def _connection(self) -> Connection:
         if self.__connection is None:
             self.__connection = self._settings.create_connection()
