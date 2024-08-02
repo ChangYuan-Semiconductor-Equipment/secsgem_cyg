@@ -2,6 +2,8 @@
 name = "secsgem_cyg"
 version = "1.0.0"
 description = ""
+repository = "https://github.com/anjiyou/secsgem_cyg"
+homepage = "https://github.com/anjiyou/secsgem_cyg"
 authors = ["WeiLiu <wei.l@cyg.com>"]
 readme = "README.md"
 packages = [{include = "secsgem"},]
