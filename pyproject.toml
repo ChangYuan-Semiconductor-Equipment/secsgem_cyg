@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "secsgem"
+name = "secsgem_cyg"
 version = "1.0.0"
 description = ""
 authors = ["WeiLiu <wei.l@cyg.com>"]
