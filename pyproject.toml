@@ -2,8 +2,8 @@
 name = "secsgem_cyg"
 version = "1.0.0"
 description = ""
-repository = "https://github.com/anjiyou/secsgem_cyg"
-homepage = "https://github.com/anjiyou/secsgem_cyg"
+repository = "https://github.com/ChangYuan-Semiconductor-Equipment/secsgem_cyg.git"
+homepage = "https://github.com/ChangYuan-Semiconductor-Equipment/secsgem_cyg.git"
 authors = ["WeiLiu <wei.l@cyg.com>"]
 readme = "README.md"
 packages = [{include = "secsgem"},]
