@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "secsgem_cyg"
-version = "1.0.0"
+version = "1.0.1"
 description = ""
 repository = "https://github.com/ChangYuan-Semiconductor-Equipment/secsgem_cyg.git"
 homepage = "https://github.com/ChangYuan-Semiconductor-Equipment/secsgem_cyg.git"
