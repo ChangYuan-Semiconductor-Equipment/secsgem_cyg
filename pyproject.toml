@@ -4,9 +4,9 @@ version = "1.0.1"
 description = ""
 repository = "https://github.com/ChangYuan-Semiconductor-Equipment/secsgem_cyg.git"
 homepage = "https://github.com/ChangYuan-Semiconductor-Equipment/secsgem_cyg.git"
-authors = ["WeiLiu <wei.l@cyg.com>"]
+authors = ["WeiLiu <183074632Qqq.com>"]
 readme = "README.md"
-packages = [{include = "secsgem"},]
+packages = [{include = "secsgem_cyg"},]
 
 [tool.poetry.dependencies]
 python = ">=3.10,<3.13"
